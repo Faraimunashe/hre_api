@@ -22,8 +22,6 @@ class CreateBillsTable extends Migration
             $table->integer('b3');
             $table->bigInteger('period_id')->unsigned()->nullable();
             $table->timestamps();
-            $table->foreign('acc_id')->references('id')->on('accounts')->onDelete('cascade');
-            $table->foreign('period_id')->references('id')->on('periods')->onDelete('cascade');
         });
     }
 
