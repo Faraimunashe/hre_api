@@ -12,8 +12,7 @@
         "laravel/passport": "^10.3",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "paynow/php-sdk": "^1.0",
-        "tcg/voyager": "^1.5"
+        "paynow/php-sdk": "^1.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
